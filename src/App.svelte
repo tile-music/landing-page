@@ -8,7 +8,7 @@
         size: number; // square size, 0 to 1
         rotation?: number; // optional square rotation, in degrees
     };
-    
+
     type Example = {
         descriptor: string;
         squares: SquareInfo[];
@@ -69,9 +69,9 @@
 </script>
 
 <nav>
-    <Logo 
-        size="200px" 
-        color="var(--text)" 
+    <Logo
+        size="200px"
+        color="var(--text)"
         class="nav-logo"
     />
     <a href="#get-notified" class="art-display-button">get notified</a>
@@ -88,8 +88,8 @@
                 <div style={generateSquareStyle(square)} class="square-container">
                     <div class="square">
                         <MusicNote
-                            size="50%" 
-                            color="var(--text)" 
+                            size="50%"
+                            color="var(--text)"
                             class="note"
                         />
                     </div>
